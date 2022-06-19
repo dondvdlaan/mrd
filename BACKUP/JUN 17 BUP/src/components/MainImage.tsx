@@ -16,7 +16,7 @@ export const MainImage = (props: Props) => {
     <img 
         src={props.pic}
         alt=""
-        className ="w-full h-120 object-cover contrast-25 "
+        className ="w-full h-96 object-cover contrast-25 "
         />
         {/* Home page has different headers */}
         {props.menuPage === 0 ? 
